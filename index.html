@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+     <style>
+         body{
+          background-image:linear-gradient(red, yellow, green);
+        }
+          nav{
+            width: 100%;
+            background-color:chocolate;
+          }
+          nav a{
+             color: aliceblue;
+            text-decoration: none;
+            font-size:x-large;
+            /* background-color: greenyellow; */
+            border-radius:20px;
+            background-color:green;
+            padding: 10px 10px 10px;
+          }
+          nav img{
+            width:140px;
+
+          }
+          #parent{
+
+             background-color:bisque;
+             width: 100%;
+             height: 60px;
+          }
+          #parent h1{
+            position: relative;
+             top:10px;
+          }
+          #sum{
+            background-color: bisque;
+             width: 100%;
+             height: 60px;
+          }
+          #sum h1{
+            position: relative;
+             top:10px;
+          }
+          #educate{
+            background-color:bisque;
+             width: 100%;
+             height: 60px;
+          }
+          #educate h1{
+            position: relative;
+             top:10px;
+          }
+          #skill{
+            background-color: bisque;
+             width: 100%;
+             height: 60px;
+          }
+          #skill h1{
+            position: relative;
+             top:10px;
+          }
+          #project{
+            background-color: bisque;
+             width: 100%;
+             height: 60px;
+          }
+          #project h1{
+            position: relative;
+             top:10px;
+          }
+          #ht{
+            width: 300px;
+            height:20px;
+            border: 2px solid ;
+            border-radius:20px;
+          }
+          #ht1{
+            width:10px;
+            height:20px;
+            border-radius:20px;
+            transition: width 2s;
+          }
+          .ts:hover~#ht1{
+               width: 300px;
+               background-color: aqua;
+          }
+          #css{
+            width: 300px;
+            height:20px;
+            border: 2px solid ;
+            border-radius:20px;
+          }
+          #cs1{
+            width:10px;
+            height:20px;
+            border-radius:20px;
+            transition: width 2s;
+          }
+          #ts1:hover~#cs1{
+              width:260px;
+              background-color: aqua;
+                    
+          }
+         #js{
+          width: 300px;
+            height:20px;
+            border: 2px solid ;
+            border-radius:20px;
+         }
+         #js1{
+          width:10px;
+            height:20px;
+            border-radius:20px;
+            transition: width 2s;
+         }
+         #ts2:hover~#js1{
+                   width:240px;
+                   background-color: aqua;
+         }
+     </style>
+
+
+</head>
+
+<body>
+
+<nav>
+    <img src="./photo - Copy.jpeg" alt="" style="border-radius: 50%;"> 
+    <a href="#About Me" style="position: relative;bottom:70px;left: 100px;">About Me</a>
+    <a href="#Summary" style="position: relative;bottom:70px;left: 230px;">Summary</a>
+    <a href="#Education" style="position: relative;bottom: 70px;left: 340px;">Education</a>
+    <a href="#Skills" style="position: relative;bottom: 70px;left: 440px;">Skills</a>
+    <a href="#Projects" style="position: relative;bottom: 70px;left: 540px;">Projects</a>
+
+</nav>
+<section id="About Me">
+<div id="parent">
+<h1>About Me:</h1>
+</div><br>
+<div>
+   <p &nbsp &nbsp &nbsp &nbsp> Name: D.Krishnaiah</p>
+    <p>Father Name: Bhemmaiah</p>
+   <p>Date of birth: 08/06/2002</p> 
+    <p>Gender: Male</p>
+    <p>Nationality: Indian</p>
+    <p>Address: 1-25/1 Chinnavarval(vill),<br>
+      Gandeed(man),Mahabubnagar(distr)</p>
+
+</div>
+</section>
+<section id="Summary">
+<div id="sum">
+  <h1>Summary</h1>
+</div><br>
+<div>
+  <p>To associate with an organization where I can utilize my knowledge and skills for the growth of the organization and improve my skills.</p>
+</div>
+</section>
+<section id="Education">
+<div id="educate">
+  <h1>Education</h1>
+</div><br><br>
+<div>
+  <center>
+  <table border="2px" style="border-collapse: collapse; text-align: center;" width="600px" height="500px">
+    <tr>
+      <th>Qualification</th>
+      <th>Specialization</th>
+      <th>Institution</th>
+      <th>Year of pass</th>
+    </tr>
+    <tr>
+      <td>B.Tech</td>
+      <td>CIVIL</td>
+      <td>CBIT</td>
+      <td>2023</td>
+    </tr>
+    <tr>
+      <td>Intermediate</td>
+      <td>MPC</td>
+      <td>Sri Chaitanya Junior Kalasala</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <td>SSC</td>
+      <td>-</td>
+      <td>ZPHS Chinnavarval</td>
+      <td>2017</td>
+    </tr>
+  </center>
+  </table>
+
+</div>
+</section>
+<section id="Skills">
+<div id="skill">
+  <h1>Skills</h1>
+</div><br>
+  <h1 class="ts">HTML 100%</h1>
+  <div id="ht"></div>
+  <div id="ht1" style="position: relative;bottom:23px;left:2px;"></div>
+<h1 id="ts1">CSS 90%</h1>
+<div id="css"></div>
+  <div id="cs1" style="position: relative;bottom:23px;left:2px;"></div>
+  <h1 id="ts2">Java Script 80%</h1>
+  <div id="js"></div>
+  <div id="js1" style="position: relative;bottom:23px;left:2px;"></div>
+</section>
+<section id="Projects">
+<div id="project">
+  <h1>Projects</h1>
+</div><br>
+<ol>
+  <li>Github:<a href="https://github.com/Krishnaiahdongala?tab=repositories">https://github.com/Krishnaiahdongala?tab=repositories</a></li>
+  <li>Resume: <a href="https://github.com/Krishnaiahdongala/CSSTask1">https://github.com/Krishnaiahdongala/CSSTask1</a></li>
+  <li>CSS Bookmarks: <a href="https://github.com/Krishnaiahdongala/CSSTask">https://github.com/Krishnaiahdongala/CSSTask</a></li>
+  <li>Positions: <a href="https://github.com/Krishnaiahdongala/CSSNavigation/tree/main/CSS_Position">https://github.com/Krishnaiahdongala/CSSNavigation/tree/main/CSS_Position</a></li>
+  <li>CSS Template pseudo: <a href="https://github.com/Krishnaiahdongala/CSSTemplate">https://github.com/Krishnaiahdongala/CSSTemplate</a></li> 
+  <li>CSS Animation: <a href="https://github.com/Krishnaiahdongala/CSS/blob/main/animie/animie2.html">https://github.com/Krishnaiahdongala/CSS/blob/main/animie/animie2.html</a></li>
+  <li>Grid: <a href="https://github.com/Krishnaiahdongala/CSS/tree/main/grid">https://github.com/Krishnaiahdongala/CSS/tree/main/grid</a></li>
+</ol>
+</section>
+<div style="background-color:coral;">
+  <marquee behavior="" direction="">D.Krishnaiah cont:8688331151 dongalakrishnaiah2@gmail.com</marquee>
+</div>
+
+</body>
+</html>
